@@ -7,7 +7,7 @@ import sys
 from pprint import pprint
 from time import sleep
 
-template = 'http://experiment.worldcat.org/entity/work/data/{}.jsonld'
+template = 'http://experiment.worldcat.org/oclc/{}.jsonld'
 
 def parse_args():
     parser = argparse.ArgumentParser(
